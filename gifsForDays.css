@@ -1,0 +1,118 @@
+
+
+/*BREAKS AT 1209px*/
+
+@font-face 
+{
+	font-family: SaucerBB;
+	src:url("SaucerBB.ttf");
+}
+
+html
+{
+	overflow: initial;
+	background: url("animeGirl2.jpg");
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-color: #2d2b54;
+}
+
+h1 
+{
+	font-family: SaucerBB;
+	font-size: 85px;
+	color: #62E3AB;
+}
+
+button
+{
+	font-size: 18px;
+	margin: 5px;
+	padding: 5px;
+	border-radius: 30px;
+	background: #2d2b54;
+	color: #62E3AB;
+	border: 2px solid #d6fc57;
+}
+
+body
+{
+	font-family: 'Marvel', sans-serif;
+	font-size: 20px;
+	background: 0;
+}
+
+.container
+{
+	max-width: 1820px;
+}
+
+.jumbotron
+{
+	margin: 5px 50px;
+	background: #14131d;
+	padding: 15px;
+	border-radius: 0;
+	opacity: 0.8;
+}
+
+.jumbotron:hover
+{
+	opacity: 1.0;
+}
+
+#animes-view
+{
+	display: inline-block;
+	color: #62E3AB;
+}
+
+img
+{
+	padding: 6px;
+	width: 250px;
+	height: 250px;
+}
+
+p
+{
+	font-weight: bold;
+	text-shadow: 1px 1px #2d2b54;
+	margin: 0;
+}
+
+.gifDiv
+{
+	float:left;
+	border: 3px double #d6fc57;
+}
+
+
+
+#anime-form
+{
+	color: #62E3AB;
+	background: #14131d;
+	padding: 15px;
+	border-radius: 0;
+	opacity: 0.8;
+}
+#anime-form:hover
+{
+	opacity: 1.0;
+}
+
+#anime-input
+{
+	width: 100%;
+}
+
+#add-anime
+{
+	font-size: 30px;
+	margin: 15px 0;
+	border-radius: 30px;
+	background: #2d2b54;
+	color: #62E3AB;
+	border: 2px solid #d6fc57;
+}
